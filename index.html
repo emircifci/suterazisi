@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hassas Su Terazisi: Eğim Ölçer | Bubble Level</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #10b981;
+            --primary-glow: rgba(16, 185, 129, 0.25);
+            --bg: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            padding: 40px 20px 20px;
+            text-align: center;
+        }
+        .icon {
+            width: 100px;
+            height: 100px;
+            border-radius: 22px;
+            background: linear-gradient(135deg, #059669, #10b981);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 48px;
+            box-shadow: 0 10px 30px var(--primary-glow);
+            margin-bottom: 20px;
+        }
+        h1 { font-size: 2.2rem; font-weight: 800; margin-bottom: 10px; }
+        p.subtitle { color: var(--text-muted); font-size: 1.1rem; max-width: 600px; margin: 0 auto; }
+        
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+            flex: 1;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        .card {
+            background-color: var(--card-bg);
+            border-radius: 16px;
+            padding: 25px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .card h3 { color: var(--primary); margin-bottom: 10px; font-size: 1.2rem; }
+        .card p { color: var(--text-muted); font-size: 0.95rem; }
+        
+        .links-bar {
+            text-align: center;
+            padding: 20px;
+            background: var(--card-bg);
+            border-radius: 16px;
+            margin-top: 30px;
+        }
+        .links-bar a {
+            color: var(--primary);
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 600;
+        }
+        .links-bar a:hover { text-decoration: underline; }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+            border-top: 1px solid rgba(255,255,255,0.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="icon">🟢</div>
+        <h1>Hassas Su Terazisi: Eğim Ölçer</h1>
+        <p class="subtitle">Ev, tadilat, tablo asma ve masa dengeleme için tasarlanmış minimalist ve yüksek hassasiyetli dijital su terazisi.</p>
+    </header>
+
+    <main>
+        <div class="grid">
+            <div class="card">
+                <h3>🎯 Yüzey Terazisi (Bull's Eye)</h3>
+                <p>Masa, sehpa veya düz yüzeyleri her iki eksende (X ve Y) aynı anda milimetrik hassasiyetle dengeleyin.</p>
+            </div>
+            <div class="card">
+                <h3>🖼️ Tablo & Eğim Ölçer</h3>
+                <p>Duvara çerçeve, ayna ve raf asarken kusursuz hizalama için tüp terazi ve açı sabitleme modu.</p>
+            </div>
+            <div class="card">
+                <h3>📏 Akıllı Ekran Cetveli</h3>
+                <p>Ekran kenarında hem cm/mm hem de inç cinsinden pratik fiziksel ölçüm yapma imkanı.</p>
+            </div>
+        </div>
+
+        <div class="links-bar">
+            <a href="privacy.html">Gizlilik Politikası (Privacy Policy)</a> • 
+            <a href="support.html">Destek & İletişim (Support)</a>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Emirhan Çiftçi. Tüm hakları saklıdır.</p>
+    </footer>
+</body>
+</html>
